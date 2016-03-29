@@ -22,7 +22,7 @@ Alternatively you can just download the zip from github and extract the files in
 Include the script like so:
 
 ```html
-<script src="./bower_components/eventcontroller/dist/eventcontroller.min.js"></script>
+<script src="./bower_components/eventcontroller/lib/eventcontroller.min.js"></script>
 ```
 
 ### NodeJS
