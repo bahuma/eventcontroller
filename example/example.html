@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Example</title>
+</head>
+<body>
+    <button onclick="ec.emit('testEvent', 'Hello World!')">Click me to emit a test event</button>
+
+    <script src="../lib/eventcontroller.js"></script>
+    <script>
+        var ec = new EventController();
+
+        ec.on('testEvent', function(payload){
+            console.log('A test event was emmited. The payload was "'+ payload +'"');
+        });
+
+        ec.on('testEvent', function(payload){
+            console.log('I am also listening to test events.');
+        });
+    </script>
+</body>
+</html>

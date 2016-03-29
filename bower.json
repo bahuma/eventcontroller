@@ -1,0 +1,26 @@
+{
+  "name": "eventcontroller",
+  "description": "A JavaScript plugin which allows you to listen to and throw events",
+  "main": "lib/eventcontroller.js",
+  "authors": [
+    "Max Bachhuber <bahuma20@bahuma.io>"
+  ],
+  "license": "ISC",
+  "keywords": [
+    "events",
+    "emit",
+    "on"
+  ],
+  "moduleType": [
+    "es6",
+    "node"
+  ],
+  "homepage": "https://github.com/bahuma/eventcontroller#readme",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
